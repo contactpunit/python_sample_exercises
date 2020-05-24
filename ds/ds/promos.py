@@ -25,7 +25,7 @@ class NoBitesAvailable(Exception):
 
 class Promo:
 
-    def __init__(self, bites_done=bites_done):
+    def __init__(self, bites_done):
         self.bites_done = bites_done
 
     def _pick_random_bite(self):
